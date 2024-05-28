@@ -1,24 +1,18 @@
-# README
+# Where's Waldo
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a web based version of the classic Where's Waldo game built using React as the frontend and Rails as the backend.
 
-Things you may want to cover:
+- [Link to the Assignment](https://www.theodinproject.com/lessons/react-new-where-s-waldo-a-photo-tagging-app)
+- [Link to the Frontend](https://github.com/ewoknock/whereswaldo)
 
-* Ruby version
+## Features
 
-* System dependencies
+Rails as backend API to store image coordinates and also user scores in POSTGRES database. User scores still to be implemented.
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Javascript/HTML/SCSS
+React
+Vite
+ESLint
+Vitest and React Testing Library for testing
+Rails
+POSTGRES
