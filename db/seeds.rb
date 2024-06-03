@@ -7,6 +7,24 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
+Score.destroy_all
+
+sampleScores = [
+  {name: "Marina", time:17650}, 
+  {name: "Cheng", time: 25000}, 
+  {name: "Emma", time: 49090},
+  {name: "Sonja", time:55100}, 
+  {name: "Oskar", time: 57600}, 
+  {name: "Charity", time: 60300},
+  {name: "Kurt", time:72000}, 
+  {name: "Frasier", time: 78600}, 
+  {name: "Chester", time: 85900},
+  {name: "Sunny", time: 90900},
+  ]
+
+sampleScores.each do |sample|
+  Score.create!(sample)
+end
 
 characters = [
   {name: "Washington Carver", x:0.0797, y:0.6545}, 
