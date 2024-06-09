@@ -74,3 +74,5 @@ group :test do
   gem 'rails-controller-testing'
   gem 'shoulda-matchers'
 end
+
+gem "dockerfile-rails", ">= 1.6", :group => :development
